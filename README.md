@@ -9,8 +9,12 @@
 ### 1. Клонируйте репозиторий
 Сначала клонируйте репозиторий на свой компьютер:
 
-    git clone https://github.com/yourusername/your-repository-name.git
+    git clone https://github.com/Myrza11/Naryn
     cd your-repository-name
+
+или используйте это
+    
+    git clone git@github.com:Myrza11/Naryn.git
 
 2. Создайте и активируйте виртуальное окружение
 Для создания виртуального окружения используйте следующие команды:
