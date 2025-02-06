@@ -7,24 +7,27 @@
 ## Установка и запуск
 
 ### 1. Клонируйте репозиторий
-
 Сначала клонируйте репозиторий на свой компьютер:
 
-```bash
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+    git clone https://github.com/yourusername/your-repository-name.git
+    cd your-repository-name
+
 2. Создайте и активируйте виртуальное окружение
 Для создания виртуального окружения используйте следующие команды:
+exit
+   ```bash
+    python -m venv venv
+    source venv/bin/activate  # Для MacOS/Linux
+    venv\Scripts\activate  # Для Windows
 
-python -m venv venv
-source venv/bin/activate  # Для MacOS/Linux
-venv\Scripts\activate  # Для Windows
+
 3. Установите зависимости
 Установите все необходимые зависимости с помощью pip:
 
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 4. Запустите сервер
 Теперь вы можете запустить сервер разработки Django:
-
-python manage.py runserver
+    ```bash
+    python manage.py runserver
 После этого API будет доступно по адресу http://127.0.0.1:8000.
