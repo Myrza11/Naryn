@@ -1,0 +1,3 @@
+drf-spectacular==0.28.0
+jsonpointer==2.1
+matplotlib==3.9.2

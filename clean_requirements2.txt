@@ -1,0 +1,5 @@
+appdirs==1.4.4
+atomicwrites==1.4.0
+attrs==24.3.0
+category-encoders==2.6.4
+django-phonenumber-field==8.0.0

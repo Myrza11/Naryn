@@ -1,6 +1,4 @@
 from rest_framework import serializers
-from sympy import false
-
 from .models import *
 
 class ServiceSerializer(serializers.ModelSerializer):
